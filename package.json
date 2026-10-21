@@ -5,33 +5,32 @@
   "scripts": {
     "dev": "next dev -p 4317",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4317",
     "lint": "eslint",
-    "worker:setup": "python3 -m venv .venv && .venv/bin/pip install -r worker/requirements.txt && python worker/scripts/fetch_models.py",
-    "worker:sync": ".venv/bin/python -m everform sync --mode all",
-    "worker:test": ".venv/bin/python -m pytest worker/tests -q"
+    "worker:setup": "python3 -m venv .venv && .venv/bin/pip install -r worker/requirements.txt && .venv/bin/python worker/scripts/fetch_models.py",
+    "worker:sync": "cd worker && ../.venv/bin/python -m everform sync",
+    "worker:status": "cd worker && ../.venv/bin/python -m everform status",
+    "worker:test": "cd worker && ../.venv/bin/python -m pytest tests -q"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.544.0",
-    "next": "16.0.0-canary.17",
-    "radix-ui": "^1.4.3",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwind-merge": "^3.3.1",
+    "cn": "^0.5.0",
+    "lucide-react": "^1.60.0",
+    "next": "16.4.2",
+    "radix-ui": "^1.8.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "shadcn": "^4.22.1",
     "tw-animate-css": "^1.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.0-canary.17",
-    "postcss": "^8",
-    "shadcn": "^3.3.1",
-    "tailwindcss": "^4.1.13",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
     "typescript": "^5"
   }
 }
