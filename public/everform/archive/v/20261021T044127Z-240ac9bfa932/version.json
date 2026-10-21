@@ -19,36 +19,5 @@
    "weight": 0.010576,
    "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.2/"
   }
- ],
- "settings": {
-  "fusion": {
-   "width": 1024,
-   "height": 1280,
-   "eye_y": 0.415,
-   "iod": 0.158,
-   "film_balance": "sqrt",
-   "robust_iterations": 2,
-   "detail_gain_max": 1.9,
-   "color_strength": 0.8,
-   "grain": 2.2,
-   "seed": 7,
-   "class_weights": {
-    "background": 0.02,
-    "hair": 1.0,
-    "body": 0.8,
-    "face": 1.0,
-    "clothes": 0.12,
-    "other": 0.3
-   }
-  },
-  "template": "06e7963e4343",
-  "pipeline": "2",
-  "render": "2"
- },
- "gate": {
-  "mean_luma": 41.6,
-  "faces": 1,
-  "identity": 0.625,
-  "sharpness": 6.14
- }
+ ]
 }
