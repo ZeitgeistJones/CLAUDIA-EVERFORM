@@ -1,0 +1,174 @@
+{
+ "id": "20261021T043541Z-d9e02e7aaa1f",
+ "mode": "canon",
+ "kind": "reconstructed",
+ "label": "After ESCAPE VELOCITY (September 2026)",
+ "createdAt": "2026-10-21T04:35:42Z",
+ "hash": "d9e02e7aaa1f",
+ "fused": 21,
+ "films": [
+  "escape-velocity"
+ ],
+ "filmShares": {
+  "escape-velocity": 1.0
+ },
+ "sources": [
+  {
+   "id": "ev-17-merge.podcast.2",
+   "film": "escape-velocity",
+   "weight": 0.086463,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P17.3",
+   "film": "escape-velocity",
+   "weight": 0.074838,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P17.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.3",
+   "film": "escape-velocity",
+   "weight": 0.066125,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.3/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.4",
+   "film": "escape-velocity",
+   "weight": 0.065188,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.4",
+   "film": "escape-velocity",
+   "weight": 0.060976,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P20.1",
+   "film": "escape-velocity",
+   "weight": 0.060837,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P20.1/"
+  },
+  {
+   "id": "ev-15-fix.hall-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.056634,
+   "page": "https://claudia.gallery/i/ev-15-fix.hall-cu.1/"
+  },
+  {
+   "id": "ev-17-merge.rail-mcu.1",
+   "film": "escape-velocity",
+   "weight": 0.055873,
+   "page": "https://claudia.gallery/i/ev-17-merge.rail-mcu.1/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.1",
+   "film": "escape-velocity",
+   "weight": 0.052217,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.1/"
+  },
+  {
+   "id": "ev-15-fix.waymo-seat.3",
+   "film": "escape-velocity",
+   "weight": 0.049972,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-seat.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P52.2",
+   "film": "escape-velocity",
+   "weight": 0.047801,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P52.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P15.3",
+   "film": "escape-velocity",
+   "weight": 0.044201,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P15.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P43.1",
+   "film": "escape-velocity",
+   "weight": 0.040045,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P43.1/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.037512,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P53.2",
+   "film": "escape-velocity",
+   "weight": 0.034023,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P53.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P63.2",
+   "film": "escape-velocity",
+   "weight": 0.033578,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P63.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.3",
+   "film": "escape-velocity",
+   "weight": 0.029254,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P11.3",
+   "film": "escape-velocity",
+   "weight": 0.029096,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P11.3/"
+  },
+  {
+   "id": "ev-19-vary.float-ms.4",
+   "film": "escape-velocity",
+   "weight": 0.029031,
+   "page": "https://claudia.gallery/i/ev-19-vary.float-ms.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P51.3",
+   "film": "escape-velocity",
+   "weight": 0.023734,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P51.3/"
+  },
+  {
+   "id": "ev-17-merge.veil-monitor.2",
+   "film": "escape-velocity",
+   "weight": 0.022602,
+   "page": "https://claudia.gallery/i/ev-17-merge.veil-monitor.2/"
+  }
+ ],
+ "settings": {
+  "fusion": {
+   "width": 1024,
+   "height": 1280,
+   "eye_y": 0.415,
+   "iod": 0.158,
+   "film_balance": "sqrt",
+   "robust_iterations": 2,
+   "detail_gain_max": 1.9,
+   "color_strength": 0.8,
+   "grain": 2.2,
+   "seed": 7,
+   "class_weights": {
+    "background": 0.02,
+    "hair": 1.0,
+    "body": 0.8,
+    "face": 1.0,
+    "clothes": 0.12,
+    "other": 0.3
+   }
+  },
+  "template": "06e7963e4343",
+  "pipeline": "2",
+  "render": "2"
+ },
+ "gate": {
+  "mean_luma": 43.9,
+  "faces": 1,
+  "identity": 0.653,
+  "sharpness": 8.91
+ }
+}
