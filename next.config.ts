@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // Every published version lives in its own content-addressed folder and never changes.
         source: "/everform/:mode/v/:path*",
         headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
       },
