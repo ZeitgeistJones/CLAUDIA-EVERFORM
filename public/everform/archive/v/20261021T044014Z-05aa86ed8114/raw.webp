@@ -1,1 +1,1 @@
-__LOAD__/tmp/cu_args_only.json__
+python:json.load(open('/tmp/for_mcp_v4.json'))['content']
