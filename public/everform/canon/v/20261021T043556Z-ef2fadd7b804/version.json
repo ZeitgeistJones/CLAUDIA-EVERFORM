@@ -15,6 +15,6 @@
   "clodyssey": 0.49296
  },
  "sources": [],
- "settings": {"fusion": {"width": 1024}},
+ "settings": {"fusion": {"width": 1024, "height": 1280}},
  "gate": {"mean_luma": 44.5, "faces": 1, "identity": 0.723, "sharpness": 9.9}
 }
