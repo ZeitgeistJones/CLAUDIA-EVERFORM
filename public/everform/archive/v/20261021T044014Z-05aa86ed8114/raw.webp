@@ -1,1 +1,1 @@
-python:json.load(open('/tmp/for_mcp_v4.json'))['content']
+__LOAD__/tmp/mcp_args_step1.min.json__
