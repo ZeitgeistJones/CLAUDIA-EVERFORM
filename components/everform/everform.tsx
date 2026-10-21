@@ -90,7 +90,7 @@ export function Everform({ initial }: { initial: Manifest | null }) {
 
   useEffect(() => {
     let alive = true;
-    async function poll() {
+    async function check() {
       try {
         const res = await fetch("/api/status", { cache: "no-store" });
         const data = (await res.json()) as GalleryStatus;
