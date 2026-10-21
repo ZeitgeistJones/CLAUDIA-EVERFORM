@@ -269,8 +269,120 @@
      "image": "/everform/archive/v/20261021T044301Z-250d96af68ff/portrait.webp",
      "png": null,
      "raw": "/everform/archive/v/20261021T044301Z-250d96af68ff/raw.webp",
-     "contact": "/everform/archive/v/20261021T044301Z-240ac9bfa932/contact.webp",
+     "contact": "/everform/archive/v/20261021T044301Z-250d96af68ff/contact.webp",
      "details": "/everform/archive/v/20261021T044301Z-250d96af68ff/version.json"
+    },
+    {
+     "id": "20261021T044504Z-c615001bb022",
+     "kind": "reconstructed",
+     "label": "After BLISS (October 2026)",
+     "createdAt": "2026-10-21T04:45:15Z",
+     "hash": "c615001bb022",
+     "fused": 313,
+     "films": [
+      "escape-velocity",
+      "clodyssey",
+      "bliss"
+     ],
+     "filmTitles": [
+      "ESCAPE VELOCITY",
+      "CLODYSSEY",
+      "BLISS"
+     ],
+     "change": null,
+     "identity": 0.646,
+     "image": "/everform/archive/v/20261021T044504Z-c615001bb022/portrait.webp",
+     "png": null,
+     "raw": "/everform/archive/v/20261021T044504Z-c615001bb022/raw.webp",
+     "contact": "/everform/archive/v/20261021T044504Z-c615001bb022/contact.webp",
+     "details": "/everform/archive/v/20261021T044504Z-c615001bb022/version.json"
+    },
+    {
+     "id": "20261021T044735Z-bee5a296dfdd",
+     "kind": "reconstructed",
+     "label": "After AIRPLANE MODE (October 2026)",
+     "createdAt": "2026-10-21T04:47:47Z",
+     "hash": "bee5a296dfdd",
+     "fused": 372,
+     "films": [
+      "escape-velocity",
+      "clodyssey",
+      "bliss",
+      "airplane-mode"
+     ],
+     "filmTitles": [
+      "ESCAPE VELOCITY",
+      "CLODYSSEY",
+      "BLISS",
+      "AIRPLANE MODE"
+     ],
+     "change": null,
+     "identity": 0.673,
+     "image": "/everform/archive/v/20261021T044735Z-bee5a296dfdd/portrait.webp",
+     "png": null,
+     "raw": "/everform/archive/v/20261021T044735Z-bee5a296dfdd/raw.webp",
+     "contact": "/everform/archive/v/20261021T044735Z-bee5a296dfdd/contact.webp",
+     "details": "/everform/archive/v/20261021T044735Z-bee5a296dfdd/version.json"
+    },
+    {
+     "id": "20261021T045021Z-b4919997dd97",
+     "kind": "reconstructed",
+     "label": "After DOWNFORCE (October 2026)",
+     "createdAt": "2026-10-21T04:50:37Z",
+     "hash": "b4919997dd97",
+     "fused": 429,
+     "films": [
+      "escape-velocity",
+      "clodyssey",
+      "bliss",
+      "airplane-mode",
+      "downforce"
+     ],
+     "filmTitles": [
+      "ESCAPE VELOCITY",
+      "CLODYSSEY",
+      "BLISS",
+      "AIRPLANE MODE",
+      "DOWNFORCE"
+     ],
+     "change": null,
+     "identity": 0.659,
+     "image": "/everform/archive/v/20261021T045021Z-b4919997dd97/portrait.webp",
+     "png": null,
+     "raw": "/everform/archive/v/20261021T045021Z-b4919997dd97/raw.webp",
+     "contact": "/everform/archive/v/20261021T045021Z-b4919997dd97/contact.webp",
+     "details": "/everform/archive/v/20261021T045021Z-b4919997dd97/version.json"
+    },
+    {
+     "id": "20261021T044014Z-05aa86ed8114",
+     "kind": "live",
+     "label": "Now",
+     "createdAt": "2026-10-21T04:40:32Z",
+     "hash": "05aa86ed8114",
+     "fused": 526,
+     "films": [
+      "escape-velocity",
+      "clodyssey",
+      "bliss",
+      "airplane-mode",
+      "downforce",
+      "dont-let-me-scroll"
+     ],
+     "filmTitles": [
+      "ESCAPE VELOCITY",
+      "CLODYSSEY",
+      "BLISS",
+      "AIRPLANE MODE",
+      "DOWNFORCE",
+      "DON'T LET ME SCROLL"
+     ],
+     "change": 1.406,
+     "identity": 0.656,
+     "image": "/everform/archive/v/20261021T044014Z-05aa86ed8114/portrait.webp",
+     "png": "/everform/archive/v/20261021T044014Z-05aa86ed8114/portrait.png",
+     "raw": "/everform/archive/v/20261021T044014Z-05aa86ed8114/raw.webp",
+     "contact": "/everform/archive/v/20261021T044014Z-05aa86ed8114/contact.webp",
+     "details": "/everform/archive/v/20261021T044014Z-05aa86ed8114/version.json"
     }
    ],
    "historyKey": "7bde8bd8d0b0",
