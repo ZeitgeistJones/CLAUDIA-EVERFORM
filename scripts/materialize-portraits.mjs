@@ -1,26 +1,38 @@
-import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(fileURLToPath(new URL(".", import.meta.url)), "..");
-const indexPath = join(root, "data/everform-assets/index.json");
+const assetsDir = join(root, "data/everform-assets");
+const indexPath = join(assetsDir, "index.json");
 if (!existsSync(indexPath)) {
   console.warn("materialize: no index.json, skipping");
   process.exit(0);
 }
+
+function loadB64(name) {
+  const full = join(assetsDir, name);
+  if (existsSync(full)) {
+    const b64 = readFileSync(full, "utf8").trim();
+    if (b64.startsWith("UklGR") && b64.length >= 1000) return b64;
+  }
+  // Join chunked parts: name.part00, name.part01, ...
+  const parts = readdirSync(assetsDir)
+    .filter((f) => f.startsWith(name + ".part"))
+    .sort();
+  if (!parts.length) return null;
+  const joined = parts.map((f) => readFileSync(join(assetsDir, f), "utf8").trim()).join("");
+  if (!joined.startsWith("UklGR") || joined.length < 1000) return null;
+  return joined;
+}
+
 const index = JSON.parse(readFileSync(indexPath, "utf8"));
 let ok = 0;
 let skipped = 0;
 for (const item of index) {
-  const src = join(root, "data/everform-assets", item.b64);
-  if (!existsSync(src)) {
-    console.warn("materialize: missing", item.b64);
-    skipped++;
-    continue;
-  }
-  const b64 = readFileSync(src, "utf8").trim();
-  if (!b64.startsWith("UklGR") || b64.length < 1000) {
-    console.warn("materialize: invalid/stub", item.b64, b64.length);
+  const b64 = loadB64(item.b64);
+  if (!b64) {
+    console.warn("materialize: missing/stub", item.b64);
     skipped++;
     continue;
   }
