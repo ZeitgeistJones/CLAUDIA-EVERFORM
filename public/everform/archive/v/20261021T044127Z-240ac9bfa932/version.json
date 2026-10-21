@@ -1,26 +1,54 @@
 {
  "id": "20261021T044127Z-240ac9bfa932",
  "mode": "archive",
- "kind": "live",
- "label": "Now",
- "createdAt": "2026-10-21T04:41:45Z",
+ "kind": "reconstructed",
+ "label": "After ESCAPE VELOCITY (September 2026)",
+ "createdAt": "2026-10-21T04:41:32Z",
  "hash": "240ac9bfa932",
- "fused": 526,
+ "fused": 157,
  "films": [
-  "escape-velocity",
-  "clodyssey",
-  "bliss",
-  "airplane-mode",
-  "downforce",
-  "dont-let-me-scroll"
+  "escape-velocity"
  ],
  "filmShares": {
-  "downforce": 0.14149,
-  "dont-let-me-scroll": 0.17361,
-  "clodyssey": 0.17935,
-  "bliss": 0.13049,
-  "escape-velocity": 0.23313,
-  "airplane-mode": 0.14192
+  "escape-velocity": 1.0
  },
- "sources": []
+ "sources": [
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.2",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.2/"
+  }
+ ],
+ "settings": {
+  "fusion": {
+   "width": 1024,
+   "height": 1280,
+   "eye_y": 0.415,
+   "iod": 0.158,
+   "film_balance": "sqrt",
+   "robust_iterations": 2,
+   "detail_gain_max": 1.9,
+   "color_strength": 0.8,
+   "grain": 2.2,
+   "seed": 7,
+   "class_weights": {
+    "background": 0.02,
+    "hair": 1.0,
+    "body": 0.8,
+    "face": 1.0,
+    "clothes": 0.12,
+    "other": 0.3
+   }
+  },
+  "template": "06e7963e4343",
+  "pipeline": "2",
+  "render": "2"
+ },
+ "gate": {
+  "mean_luma": 41.6,
+  "faces": 1,
+  "identity": 0.625,
+  "sharpness": 6.14
+ }
 }
