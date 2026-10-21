@@ -86,6 +86,7 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+/* Everform palette: near-black room, warm paper text, one clay accent (her streak). */
 .dark {
   --background: #09090b;
   --foreground: #f2ece7;
@@ -134,6 +135,7 @@
   }
 }
 
+/* Feathers the portrait into the room so the frame edge never shows. */
 .portrait-feather {
   mask-image: radial-gradient(ellipse 72% 70% at 50% 44%, #000 58%, transparent 100%);
 }
