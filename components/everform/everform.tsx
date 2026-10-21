@@ -183,7 +183,7 @@ export function Everform({ initial }: { initial: Manifest | null }) {
               <button
                 type="button"
                 onClick={() => setPanelOpen(true)}
-                className="uppercase underline-offset-4 hover:foreground hover:underline"
+                className="uppercase underline-offset-4 hover:text-foreground hover:underline"
               >
                 {MODE_LABELS[mode]}
               </button>
