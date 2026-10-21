@@ -14,7 +14,265 @@
   "escape-velocity": 0.50704,
   "clodyssey": 0.49296
  },
- "sources": [],
- "settings": {"fusion": {"width": 1024, "height": 1280}},
- "gate": {"mean_luma": 44.5, "faces": 1, "identity": 0.723, "sharpness": 9.9}
+ "sources": [
+  {
+   "id": "sp-03-mid.siren-arm.2",
+   "film": "clodyssey",
+   "weight": 0.045764,
+   "page": "https://claudia.gallery/i/sp-03-mid.siren-arm.2/"
+  },
+  {
+   "id": "ev-17-merge.podcast.2",
+   "film": "escape-velocity",
+   "weight": 0.04384,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.2/"
+  },
+  {
+   "id": "sp-04-end.siren-gold.3",
+   "film": "clodyssey",
+   "weight": 0.041128,
+   "page": "https://claudia.gallery/i/sp-04-end.siren-gold.3/"
+  },
+  {
+   "id": "sp-09-review.chrome-vial.2",
+   "film": "clodyssey",
+   "weight": 0.040485,
+   "page": "https://claudia.gallery/i/sp-09-review.chrome-vial.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P17.3",
+   "film": "escape-velocity",
+   "weight": 0.037945,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P17.3/"
+  },
+  {
+   "id": "sp-02-open.inst-4.4",
+   "film": "clodyssey",
+   "weight": 0.036517,
+   "page": "https://claudia.gallery/i/sp-02-open.inst-4.4/"
+  },
+  {
+   "id": "sp-02-open.inst-1.4",
+   "film": "clodyssey",
+   "weight": 0.036459,
+   "page": "https://claudia.gallery/i/sp-02-open.inst-1.4/"
+  },
+  {
+   "id": "sp-01-cast.chrome-her.3",
+   "film": "clodyssey",
+   "weight": 0.035143,
+   "page": "https://claudia.gallery/i/sp-01-cast.chrome-her.3/"
+  },
+  {
+   "id": "sp-03-mid.strait-alcove.4",
+   "film": "clodyssey",
+   "weight": 0.034567,
+   "page": "https://claudia.gallery/i/sp-03-mid.strait-alcove.4/"
+  },
+  {
+   "id": "sp-02-open.duet-selfie.3",
+   "film": "clodyssey",
+   "weight": 0.034098,
+   "page": "https://claudia.gallery/i/sp-02-open.duet-selfie.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.3",
+   "film": "escape-velocity",
+   "weight": 0.033528,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.3/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.4",
+   "film": "escape-velocity",
+   "weight": 0.033053,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.4/"
+  },
+  {
+   "id": "sp-02-open.inst-2.1",
+   "film": "clodyssey",
+   "weight": 0.031683,
+   "page": "https://claudia.gallery/i/sp-02-open.inst-2.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.4",
+   "film": "escape-velocity",
+   "weight": 0.030917,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P20.1",
+   "film": "escape-velocity",
+   "weight": 0.030846,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P20.1/"
+  },
+  {
+   "id": "sp-04-end.chrome-pose-1.3",
+   "film": "clodyssey",
+   "weight": 0.030798,
+   "page": "https://claudia.gallery/i/sp-04-end.chrome-pose-1.3/"
+  },
+  {
+   "id": "sp-04-end.her-face-out.2",
+   "film": "clodyssey",
+   "weight": 0.030759,
+   "page": "https://claudia.gallery/i/sp-04-end.her-face-out.2/"
+  },
+  {
+   "id": "ev-15-fix.hall-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.028715,
+   "page": "https://claudia.gallery/i/ev-15-fix.hall-cu.1/"
+  },
+  {
+   "id": "ev-17-merge.rail-mcu.1",
+   "film": "escape-velocity",
+   "weight": 0.02833,
+   "page": "https://claudia.gallery/i/ev-17-merge.rail-mcu.1/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.1",
+   "film": "escape-velocity",
+   "weight": 0.026476,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.1/"
+  },
+  {
+   "id": "ev-15-fix.waymo-seat.3",
+   "film": "escape-velocity",
+   "weight": 0.025338,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-seat.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P52.2",
+   "film": "escape-velocity",
+   "weight": 0.024237,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P52.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P15.3",
+   "film": "escape-velocity",
+   "weight": 0.022412,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P15.3/"
+  },
+  {
+   "id": "sp-02-open.siren-sing-cu.4",
+   "film": "clodyssey",
+   "weight": 0.020569,
+   "page": "https://claudia.gallery/i/sp-02-open.siren-sing-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P43.1",
+   "film": "escape-velocity",
+   "weight": 0.020304,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P43.1/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.01902,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P53.2",
+   "film": "escape-velocity",
+   "weight": 0.017251,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P53.2/"
+  },
+  {
+   "id": "sp-02b-fix.siren-far.2",
+   "film": "clodyssey",
+   "weight": 0.017216,
+   "page": "https://claudia.gallery/i/sp-02b-fix.siren-far.2/"
+  },
+  {
+   "id": "sp-04-end.chrome-pose-3.3",
+   "film": "clodyssey",
+   "weight": 0.017201,
+   "page": "https://claudia.gallery/i/sp-04-end.chrome-pose-3.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P63.2",
+   "film": "escape-velocity",
+   "weight": 0.017025,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P63.2/"
+  },
+  {
+   "id": "sp-02-open.siren-mcu.2",
+   "film": "clodyssey",
+   "weight": 0.015285,
+   "page": "https://claudia.gallery/i/sp-02-open.siren-mcu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.3",
+   "film": "escape-velocity",
+   "weight": 0.014833,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P11.3",
+   "film": "escape-velocity",
+   "weight": 0.014753,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P11.3/"
+  },
+  {
+   "id": "ev-19-vary.float-ms.4",
+   "film": "escape-velocity",
+   "weight": 0.01472,
+   "page": "https://claudia.gallery/i/ev-19-vary.float-ms.4/"
+  },
+  {
+   "id": "sp-09-review.her-pulls-rope.3",
+   "film": "clodyssey",
+   "weight": 0.01318,
+   "page": "https://claudia.gallery/i/sp-09-review.her-pulls-rope.3/"
+  },
+  {
+   "id": "sp-02-open.inst-8.3",
+   "film": "clodyssey",
+   "weight": 0.012111,
+   "page": "https://claudia.gallery/i/sp-02-open.inst-8.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P51.3",
+   "film": "escape-velocity",
+   "weight": 0.012034,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P51.3/"
+  },
+  {
+   "id": "ev-17-merge.veil-monitor.2",
+   "film": "escape-velocity",
+   "weight": 0.01146,
+   "page": "https://claudia.gallery/i/ev-17-merge.veil-monitor.2/"
+  }
+ ],
+ "settings": {
+  "fusion": {
+   "width": 1024,
+   "height": 1280,
+   "eye_y": 0.415,
+   "iod": 0.158,
+   "film_balance": "sqrt",
+   "robust_iterations": 2,
+   "detail_gain_max": 1.9,
+   "color_strength": 0.8,
+   "grain": 2.2,
+   "seed": 7,
+   "class_weights": {
+    "background": 0.02,
+    "hair": 1.0,
+    "body": 0.8,
+    "face": 1.0,
+    "clothes": 0.12,
+    "other": 0.3
+   }
+  },
+  "template": "06e7963e4343",
+  "pipeline": "2",
+  "render": "2"
+ },
+ "gate": {
+  "mean_luma": 44.5,
+  "faces": 1,
+  "identity": 0.723,
+  "sharpness": 9.9
+ }
 }
