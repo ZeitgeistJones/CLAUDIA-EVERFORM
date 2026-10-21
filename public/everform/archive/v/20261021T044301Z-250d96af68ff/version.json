@@ -1,1 +1,49 @@
-PLACEHOLDER
+{
+ "id": "20261021T044301Z-250d96af68ff",
+ "mode": "archive",
+ "kind": "reconstructed",
+ "label": "After CLODYSSEY (September 2026)",
+ "createdAt": "2026-10-21T04:43:10Z",
+ "hash": "250d96af68ff",
+ "fused": 257,
+ "films": [
+  "escape-velocity",
+  "clodyssey"
+ ],
+ "filmShares": {
+  "escape-velocity": 0.56519,
+  "clodyssey": 0.43481
+ },
+ "sources": [],
+ "settings": {
+  "fusion": {
+   "width": 1024,
+   "height": 1280,
+   "eye_y": 0.415,
+   "iod": 0.158,
+   "film_balance": "sqrt",
+   "robust_iterations": 2,
+   "detail_gain_max": 1.9,
+   "color_strength": 0.8,
+   "grain": 2.2,
+   "seed": 7,
+   "class_weights": {
+    "background": 0.02,
+    "hair": 1.0,
+    "body": 0.8,
+    "face": 1.0,
+    "clothes": 0.12,
+    "other": 0.3
+   }
+  },
+  "template": "06e7963e4343",
+  "pipeline": "2",
+  "render": "2"
+ },
+ "gate": {
+  "mean_luma": 42.0,
+  "faces": 1,
+  "identity": 0.644,
+  "sharpness": 5.79
+ }
+}
