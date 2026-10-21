@@ -1,1 +1,990 @@
-__LOAD_FROM__/tmp/gh_ship/fix_version_push.json
+{
+ "id": "20261021T044127Z-240ac9bfa932",
+ "mode": "archive",
+ "kind": "reconstructed",
+ "label": "After ESCAPE VELOCITY (September 2026)",
+ "createdAt": "2026-10-21T04:41:32Z",
+ "hash": "240ac9bfa932",
+ "fused": 157,
+ "films": [
+  "escape-velocity"
+ ],
+ "filmShares": {
+  "escape-velocity": 1.0
+ },
+ "sources": [
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.2",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.2/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.4",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.4/"
+  },
+  {
+   "id": "ev-14-dist.dist-ms.3",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-ms.3/"
+  },
+  {
+   "id": "ev-14-dist.dist-ms.4",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-ms.4/"
+  },
+  {
+   "id": "ev-15-fix.waymo-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.2",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.2/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw1.3",
+   "film": "escape-velocity",
+   "weight": 0.010574,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw1.3/"
+  },
+  {
+   "id": "ev-14-dist.dist-ms.2",
+   "film": "escape-velocity",
+   "weight": 0.010559,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-ms.2/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.2",
+   "film": "escape-velocity",
+   "weight": 0.010509,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.2/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.1",
+   "film": "escape-velocity",
+   "weight": 0.010487,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.1/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f13-iw075.2",
+   "film": "escape-velocity",
+   "weight": 0.010449,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f13-iw075.2/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.4",
+   "film": "escape-velocity",
+   "weight": 0.01044,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.4/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f13-iw075.1",
+   "film": "escape-velocity",
+   "weight": 0.010439,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw1.3/"
+  },
+  {
+   "id": "ev-17-merge.rail-mcu.2",
+   "film": "escape-velocity",
+   "weight": 0.010328,
+   "page": "https://claudia.gallery/i/ev-17-merge.rail-mcu.2/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw1.1",
+   "film": "escape-velocity",
+   "weight": 0.010244,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw1.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.4",
+   "film": "escape-velocity",
+   "weight": 0.010113,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.4/"
+  },
+  {
+   "id": "ev-17-merge.podcast.2",
+   "film": "escape-velocity",
+   "weight": 0.009856,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.2/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.009797,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P40.2",
+   "film": "escape-velocity",
+   "weight": 0.009793,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P40.2/"
+  },
+  {
+   "id": "ev-14-dist.dist-cu.3",
+   "film": "escape-velocity",
+   "weight": 0.009697,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-cu.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P38.4",
+   "film": "escape-velocity",
+   "weight": 0.009656,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P38.4/"
+  },
+  {
+   "id": "ev-17-merge.leather-jacket.3",
+   "film": "escape-velocity",
+   "weight": 0.009649,
+   "page": "https://claudia.gallery/i/ev-17-merge.leather-jacket.3/"
+  },
+  {
+   "id": "ev-12-face2.face2-cu-f3-iw075.4",
+   "film": "escape-velocity",
+   "weight": 0.00951,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-cu-f3-iw075.4/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.1",
+   "film": "escape-velocity",
+   "weight": 0.009482,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.1/"
+  },
+  {
+   "id": "ev-17-merge.leather-jacket.1",
+   "film": "escape-velocity",
+   "weight": 0.009371,
+   "page": "https://claudia.gallery/i/ev-17-merge.leather-jacket.1/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw1.4",
+   "film": "escape-velocity",
+   "weight": 0.0093,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw1.4/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw1.2",
+   "film": "escape-velocity",
+   "weight": 0.00929,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw1.2/"
+  },
+  {
+   "id": "ev-15-fix.hall-cu.2",
+   "film": "escape-velocity",
+   "weight": 0.009273,
+   "page": "https://claudia.gallery/i/ev-15-fix.hall-cu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P40.3",
+   "film": "escape-velocity",
+   "weight": 0.009243,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P40.3/"
+  },
+  {
+   "id": "ev-17-merge.white-mcu.1",
+   "film": "escape-velocity",
+   "weight": 0.009199,
+   "page": "https://claudia.gallery/i/ev-17-merge.white-mcu.1/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.3",
+   "film": "escape-velocity",
+   "weight": 0.009169,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.3/"
+  },
+  {
+   "id": "ev-14-dist.dist-cu.2",
+   "film": "escape-velocity",
+   "weight": 0.009168,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-cu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.2",
+   "film": "escape-velocity",
+   "weight": 0.008949,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.2/"
+  },
+  {
+   "id": "ev-12-face.face-test-ms-f3.4",
+   "film": "escape-velocity",
+   "weight": 0.00884,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-ms-f3.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P40.4",
+   "film": "escape-velocity",
+   "weight": 0.008787,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P40.4/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f13-iw075.4",
+   "film": "escape-velocity",
+   "weight": 0.008786,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f13-iw075.4/"
+  },
+  {
+   "id": "ev-19-vary.float-ms.2",
+   "film": "escape-velocity",
+   "weight": 0.008778,
+   "page": "https://claudia.gallery/i/ev-19-vary.float-ms.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P17.1",
+   "film": "escape-velocity",
+   "weight": 0.008675,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P17.1/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.3",
+   "film": "escape-velocity",
+   "weight": 0.00859,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.3/"
+  },
+  {
+   "id": "ev-17-merge.white-mcu.2",
+   "film": "escape-velocity",
+   "weight": 0.008577,
+   "page": "https://claudia.gallery/i/ev-17-merge.white-mcu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P47.4",
+   "film": "escape-velocity",
+   "weight": 0.00856,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P47.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P17.3",
+   "film": "escape-velocity",
+   "weight": 0.008531,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P17.3/"
+  },
+  {
+   "id": "ev-15-fix.hall-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.008461,
+   "page": "https://claudia.gallery/i/ev-15-fix.hall-cu.4/"
+  },
+  {
+   "id": "ev-12-face2.face2-cu-f3-iw075.2",
+   "film": "escape-velocity",
+   "weight": 0.008438,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-cu-f3-iw075.2/"
+  },
+  {
+   "id": "ev-17-merge.podcast.3",
+   "film": "escape-velocity",
+   "weight": 0.008424,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.3/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.2",
+   "film": "escape-velocity",
+   "weight": 0.008117,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.2/"
+  },
+  {
+   "id": "ev-12-face.face-test-ms-f1.1",
+   "film": "escape-velocity",
+   "weight": 0.008022,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-ms-f1.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P11.2",
+   "film": "escape-velocity",
+   "weight": 0.008015,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P11.2/"
+  },
+  {
+   "id": "ev-17-merge.rail-mcu.3",
+   "film": "escape-velocity",
+   "weight": 0.007996,
+   "page": "https://claudia.gallery/i/ev-17-merge.rail-mcu.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.1",
+   "film": "escape-velocity",
+   "weight": 0.00785,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.1/"
+  },
+  {
+   "id": "ev-17-merge.seat-walk.2",
+   "film": "escape-velocity",
+   "weight": 0.007836,
+   "page": "https://claudia.gallery/i/ev-17-merge.seat-walk.2/"
+  },
+  {
+   "id": "ev-17-merge.podcast.4",
+   "film": "escape-velocity",
+   "weight": 0.007823,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P15.1",
+   "film": "escape-velocity",
+   "weight": 0.007805,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P15.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P52.1",
+   "film": "escape-velocity",
+   "weight": 0.007802,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P52.1/"
+  },
+  {
+   "id": "ev-15-fix.waymo-seat.1",
+   "film": "escape-velocity",
+   "weight": 0.007755,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-seat.1/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.007606,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-cu.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.3",
+   "film": "escape-velocity",
+   "weight": 0.007538,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.4",
+   "film": "escape-velocity",
+   "weight": 0.007474,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.4/"
+  },
+  {
+   "id": "ev-17-merge.leather-jacket.2",
+   "film": "escape-velocity",
+   "weight": 0.007445,
+   "page": "https://claudia.gallery/i/ev-17-merge.leather-jacket.2/"
+  },
+  {
+   "id": "ev-17-merge.boot-tag.4",
+   "film": "escape-velocity",
+   "weight": 0.007431,
+   "page": "https://claudia.gallery/i/ev-17-merge.boot-tag.4/"
+  },
+  {
+   "id": "ev-14-dist.dist-fs.1",
+   "film": "escape-velocity",
+   "weight": 0.007322,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-fs.1/"
+  },
+  {
+   "id": "ev-12-face2.face2-ms-f13-iw075.3",
+   "film": "escape-velocity",
+   "weight": 0.00731,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f13-iw075.3/"
+  },
+  {
+   "id": "ev-14-dist.dist-fs.4",
+   "film": "escape-velocity",
+   "weight": 0.007218,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-fs.4/"
+  },
+  {
+   "id": "ev-12-face2.face2-cu-f3-iw075.3",
+   "film": "escape-velocity",
+   "weight": 0.007164,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-cu-f3-iw075.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.3",
+   "film": "escape-velocity",
+   "weight": 0.007114,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.3/"
+  },
+  {
+   "id": "ev-12-face.face-test-ms-f3.3",
+   "film": "escape-velocity",
+   "weight": 0.007055,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-ms-f3.3/"
+  },
+  {
+   "id": "ev-10.waymo-back.4",
+   "film": "escape-velocity",
+   "weight": 0.007041,
+   "page": "https://claudia.gallery/i/ev-10.waymo-back.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.4",
+   "film": "escape-velocity",
+   "weight": 0.006951,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P20.1",
+   "film": "escape-velocity",
+   "weight": 0.006935,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P20.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P20.4",
+   "film": "escape-velocity",
+   "weight": 0.006792,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P20.4/"
+  },
+  {
+   "id": "ev-14-dist.dist-fs.3",
+   "film": "escape-velocity",
+   "weight": 0.006767,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-fs.3/"
+  },
+  {
+   "id": "ev-12-face2.face2-cu-f3-iw075.1",
+   "film": "escape-velocity",
+   "weight": 0.006758,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-cu-f3-iw075.1/"
+  },
+  {
+   "id": "ev-14-dist.dist-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.006577,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-cu.1/"
+  },
+  {
+   "id": "ev-15-fix.hall-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.006456,
+   "page": "https://claudia.gallery/i/ev-15-fix.hall-cu.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P43.4",
+   "film": "escape-velocity",
+   "weight": 0.006428,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P43.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P38.3",
+   "film": "escape-velocity",
+   "weight": 0.00641,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P38.3/"
+  },
+  {
+   "id": "ev-17-merge.rail-mcu.1",
+   "film": "escape-velocity",
+   "weight": 0.006369,
+   "page": "https://claudia.gallery/i/ev-17-merge.rail-mcu.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.1",
+   "film": "escape-velocity",
+   "weight": 0.00635,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P11.4",
+   "film": "escape-velocity",
+   "weight": 0.006237,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P11.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P20.3",
+   "film": "escape-velocity",
+   "weight": 0.006137,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P20.3/"
+  },
+  {
+   "id": "ev-17-merge.leather-jacket.4",
+   "film": "escape-velocity",
+   "weight": 0.006014,
+   "page": "https://claudia.gallery/i/ev-17-merge.leather-jacket.4/"
+  },
+  {
+   "id": "ev-10.hall-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.005993,
+   "page": "https://claudia.gallery/i/ev-10.hall-cu.1/"
+  },
+  {
+   "id": "ev-15-fix.takeoff.4",
+   "film": "escape-velocity",
+   "weight": 0.005969,
+   "page": "https://claudia.gallery/i/ev-15-fix.takeoff.4/"
+  },
+  {
+   "id": "ev-17-merge.podcast.1",
+   "film": "escape-velocity",
+   "weight": 0.005967,
+   "page": "https://claudia.gallery/i/ev-17-merge.podcast.1/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.1",
+   "film": "escape-velocity",
+   "weight": 0.005952,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P27.1",
+   "film": "escape-velocity",
+   "weight": 0.005951,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P27.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P40.1",
+   "film": "escape-velocity",
+   "weight": 0.005943,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P40.1/"
+  },
+  {
+   "id": "ev-15-fix.waymo-seat.4",
+   "film": "escape-velocity",
+   "weight": 0.005869,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-seat.4/"
+  },
+  {
+   "id": "ev-15-fix.waymo-cu.3",
+   "film": "escape-velocity",
+   "weight": 0.005858,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-cu.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P56.1",
+   "film": "escape-velocity",
+   "weight": 0.005796,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P56.1/"
+  },
+  {
+   "id": "ev-17-merge.white-mcu.4",
+   "film": "escape-velocity",
+   "weight": 0.005773,
+   "page": "https://claudia.gallery/i/ev-17-merge.white-mcu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P42.3",
+   "film": "escape-velocity",
+   "weight": 0.005764,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P42.3/"
+  },
+  {
+   "id": "ev-15-fix.waymo-seat.3",
+   "film": "escape-velocity",
+   "weight": 0.005696,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-seat.3/"
+  },
+  {
+   "id": "ev-14-dist.dist-fs.2",
+   "film": "escape-velocity",
+   "weight": 0.005664,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-fs.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P52.2",
+   "film": "escape-velocity",
+   "weight": 0.005449,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P52.2/"
+  },
+  {
+   "id": "ev-14-dist.dist-ms.1",
+   "film": "escape-velocity",
+   "weight": 0.005399,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-ms.1/"
+  },
+  {
+   "id": "ev-17-merge.seat-walk.3",
+   "film": "escape-velocity",
+   "weight": 0.005351,
+   "page": "https://claudia.gallery/i/ev-17-merge.seat-walk.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P32.1",
+   "film": "escape-velocity",
+   "weight": 0.005188,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P32.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P15.3",
+   "film": "escape-velocity",
+   "weight": 0.005039,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P15.3/"
+  },
+  {
+   "id": "ev-12-face.face-test-cu-f13.1",
+   "film": "escape-velocity",
+   "weight": 0.005033,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-cu-f13.1/"
+  },
+  {
+   "id": "ev-10.hall-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.004902,
+   "page": "https://claudia.gallery/i/ev-10.hall-cu.4/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-cu.3",
+   "film": "escape-velocity",
+   "weight": 0.004895,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-cu.3/"
+  },
+  {
+   "id": "ev-10.waymo-back.3",
+   "film": "escape-velocity",
+   "weight": 0.00484,
+   "page": "https://claudia.gallery/i/ev-10.waymo-back.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P55.3",
+   "film": "escape-velocity",
+   "weight": 0.004794,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P55.3/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.3",
+   "film": "escape-velocity",
+   "weight": 0.004762,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.3/"
+  },
+  {
+   "id": "ev-12-face.face-test-ms-f3.2",
+   "film": "escape-velocity",
+   "weight": 0.004751,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-ms-f3.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P25.2",
+   "film": "escape-velocity",
+   "weight": 0.004732,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P25.2/"
+  },
+  {
+   "id": "ev-15-fix.hacker-house.2",
+   "film": "escape-velocity",
+   "weight": 0.00472,
+   "page": "https://claudia.gallery/i/ev-15-fix.hacker-house.2/"
+  },
+  {
+   "id": "ev-14-dist.dist-ws.2",
+   "film": "escape-velocity",
+   "weight": 0.004639,
+   "page": "https://claudia.gallery/i/ev-14-dist.dist-ws.2/"
+  },
+  {
+   "id": "ev-17-merge.white-mcu.3",
+   "film": "escape-velocity",
+   "weight": 0.004585,
+   "page": "https://claudia.gallery/i/ev-17-merge.white-mcu.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P43.1",
+   "film": "escape-velocity",
+   "weight": 0.004565,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P43.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P50.2",
+   "film": "escape-velocity",
+   "weight": 0.004472,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P50.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P47.2",
+   "film": "escape-velocity",
+   "weight": 0.004325,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P47.2/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.004294,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.1/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.4",
+   "film": "escape-velocity",
+   "weight": 0.004276,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P56.2",
+   "film": "escape-velocity",
+   "weight": 0.004201,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P56.2/"
+  },
+  {
+   "id": "ev-17-merge.gantry2-ms.4",
+   "film": "escape-velocity",
+   "weight": 0.004192,
+   "page": "https://claudia.gallery/i/ev-17-merge.gantry2-ms.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P22.3",
+   "film": "escape-velocity",
+   "weight": 0.003996,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P22.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P41.1",
+   "film": "escape-velocity",
+   "weight": 0.003965,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P41.1/"
+  },
+  {
+   "id": "ev-15-fix.hacker-house.4",
+   "film": "escape-velocity",
+   "weight": 0.003951,
+   "page": "https://claudia.gallery/i/ev-15-fix.hacker-house.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P43.2",
+   "film": "escape-velocity",
+   "weight": 0.003929,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P43.2/"
+  },
+  {
+   "id": "ev-17-merge.seat-walk.4",
+   "film": "escape-velocity",
+   "weight": 0.003909,
+   "page": "https://claudia.gallery/i/ev-17-merge.seat-walk.4/"
+  },
+  {
+   "id": "ev-15-fix.waymo-cu.1",
+   "film": "escape-velocity",
+   "weight": 0.003898,
+   "page": "https://claudia.gallery/i/ev-15-fix.waymo-cu.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P53.2",
+   "film": "escape-velocity",
+   "weight": 0.003878,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P53.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P51.2",
+   "film": "escape-velocity",
+   "weight": 0.003839,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P51.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P63.2",
+   "film": "escape-velocity",
+   "weight": 0.003828,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P63.2/"
+  },
+  {
+   "id": "ev-17-merge.tag-to-lens.3",
+   "film": "escape-velocity",
+   "weight": 0.003794,
+   "page": "https://claudia.gallery/i/ev-17-merge.tag-to-lens.3/"
+  },
+  {
+   "id": "ev-15-fix.takeoff.3",
+   "film": "escape-velocity",
+   "weight": 0.003633,
+   "page": "https://claudia.gallery/i/ev-15-fix.takeoff.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P50.3",
+   "film": "escape-velocity",
+   "weight": 0.00363,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P50.3/"
+  },
+  {
+   "id": "ev-10.waymo-back.1",
+   "film": "escape-velocity",
+   "weight": 0.003522,
+   "page": "https://claudia.gallery/i/ev-10.waymo-back.1/"
+  },
+  {
+   "id": "ev-21-shoebox.shoebox.3",
+   "film": "escape-velocity",
+   "weight": 0.003493,
+   "page": "https://claudia.gallery/i/ev-21-shoebox.shoebox.3/"
+  },
+  {
+   "id": "ev-10.waymo-back.2",
+   "film": "escape-velocity",
+   "weight": 0.00334,
+   "page": "https://claudia.gallery/i/ev-10.waymo-back.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P12.3",
+   "film": "escape-velocity",
+   "weight": 0.003335,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P12.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P11.3",
+   "film": "escape-velocity",
+   "weight": 0.003317,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P11.3/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-seat.1",
+   "film": "escape-velocity",
+   "weight": 0.003315,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-seat.1/"
+  },
+  {
+   "id": "ev-19-vary.float-ms.4",
+   "film": "escape-velocity",
+   "weight": 0.003309,
+   "page": "https://claudia.gallery/i/ev-19-vary.float-ms.4/"
+  },
+  {
+   "id": "ev-12-face.face-test-ms-f1.3",
+   "film": "escape-velocity",
+   "weight": 0.003269,
+   "page": "https://claudia.gallery/i/ev-12-face.face-test-ms-f1.3/"
+  },
+  {
+   "id": "ev-19-vary.float-ms.3",
+   "film": "escape-velocity",
+   "weight": 0.003235,
+   "page": "https://claudia.gallery/i/ev-19-vary.float-ms.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P16.3",
+   "film": "escape-velocity",
+   "weight": 0.003222,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P16.3/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-seat.3",
+   "film": "escape-velocity",
+   "weight": 0.00314,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-seat.3/"
+  },
+  {
+   "id": "ev-17-merge.bridge-cu.2",
+   "film": "escape-velocity",
+   "weight": 0.0031,
+   "page": "https://claudia.gallery/i/ev-17-merge.bridge-cu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P56.4",
+   "film": "escape-velocity",
+   "weight": 0.00296,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P56.4/"
+  },
+  {
+   "id": "ev-15-fix.arena.2",
+   "film": "escape-velocity",
+   "weight": 0.002802,
+   "page": "https://claudia.gallery/i/ev-15-fix.arena.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P51.3",
+   "film": "escape-velocity",
+   "weight": 0.002705,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P51.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P06.4",
+   "film": "escape-velocity",
+   "weight": 0.002704,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P06.4/"
+  },
+  {
+   "id": "ev-17-merge.veil-monitor.2",
+   "film": "escape-velocity",
+   "weight": 0.002576,
+   "page": "https://claudia.gallery/i/ev-17-merge.veil-monitor.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P73.1",
+   "film": "escape-velocity",
+   "weight": 0.002483,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P73.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P42.4",
+   "film": "escape-velocity",
+   "weight": 0.002472,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P42.4/"
+  },
+  {
+   "id": "ev-10.hall-cu.2",
+   "film": "escape-velocity",
+   "weight": 0.002381,
+   "page": "https://claudia.gallery/i/ev-10.hall-cu.2/"
+  },
+  {
+   "id": "ev-16-narr.n-P38.1",
+   "film": "escape-velocity",
+   "weight": 0.002333,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P38.1/"
+  },
+  {
+   "id": "ev-16-narr.n-P52.3",
+   "film": "escape-velocity",
+   "weight": 0.002333,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P52.3/"
+  },
+  {
+   "id": "ev-11-waymo.waymo-seat.4",
+   "film": "escape-velocity",
+   "weight": 0.002319,
+   "page": "https://claudia.gallery/i/ev-11-waymo.waymo-seat.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P22.4",
+   "film": "escape-velocity",
+   "weight": 0.002253,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P22.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P53.4",
+   "film": "escape-velocity",
+   "weight": 0.002229,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P53.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P62.4",
+   "film": "escape-velocity",
+   "weight": 0.002228,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P62.4/"
+  },
+  {
+   "id": "ev-16-narr.n-P32.3",
+   "film": "escape-velocity",
+   "weight": 0.002215,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P32.3/"
+  },
+  {
+   "id": "ev-16-narr.n-P32.4",
+   "film": "escape-velocity",
+   "weight": 0.002195,
+   "page": "https://claudia.gallery/i/ev-16-narr.n-P32.4/"
+  }
+ ],
+ "settings": {
+  "fusion": {
+   "width": 1024,
+   "height": 1280,
+   "eye_y": 0.415,
+   "iod": 0.158,
+   "film_balance": "sqrt",
+   "robust_iterations": 2,
+   "detail_gain_max": 1.9,
+   "color_strength": 0.8,
+   "grain": 2.2,
+   "seed": 7,
+   "class_weights": {
+    "background": 0.02,
+    "hair": 1.0,
+    "body": 0.8,
+    "face": 1.0,
+    "clothes": 0.12,
+    "other": 0.3
+   }
+  },
+  "template": "06e7963e4343",
+  "pipeline": "2",
+  "render": "2"
+ },
+ "gate": {
+  "mean_luma": 41.6,
+  "faces": 1,
+  "identity": 0.625,
+  "sharpness": 6.14
+ }
+}
