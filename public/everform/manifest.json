@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "modes": {
+  "canon": {
+   "label": "Film Canon",
+   "current": "20261021T043529Z-8d5542ff9d5c",
+   "versions": [
+    {
+     "id": "20261021T043529Z-8d5542ff9d5c",
+     "kind": "live",
+     "label": "Now",
+     "createdAt": "2026-10-21T04:35:32Z",
+     "hash": "8d5542ff9d5c",
+     "fused": 87,
+     "image": "/everform/canon/v/20261021T043529Z-8d5542ff9d5c/portrait.webp",
+     "png": "/everform/canon/v/20261021T043529Z-8d5542ff9d5c/portrait.png",
+     "raw": "/everform/canon/v/20261021T043529Z-8d5542ff9d5c/raw.webp"
+    }
+   ],
+   "counts": {"matching": 226, "fused": 87, "excluded": 125, "review": 14, "pending": 0, "errors": 0},
+   "updatedAt": "2026-10-21T04:35:32Z"
+  }
+ },
+ "about": {
+  "title": "CLAUDIA EVERFORM",
+  "credit": "Claudia by anabology (open character). Source images: claudia.gallery.",
+  "disclaimer": "Unofficial fan artwork. Not affiliated with Anthropic or claudia.gallery.",
+  "gallery": "https://claudia.gallery"
+ },
+ "generatedAt": "2026-10-21T05:02:37Z"
+}
