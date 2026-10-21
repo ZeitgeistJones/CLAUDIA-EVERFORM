@@ -1,1 +1,23 @@
-{"test":true}
+{
+ "id": "20261021T044127Z-240ac9bfa932",
+ "mode": "archive",
+ "kind": "reconstructed",
+ "label": "After ESCAPE VELOCITY (September 2026)",
+ "createdAt": "2026-10-21T04:41:32Z",
+ "hash": "240ac9bfa932",
+ "fused": 157,
+ "films": [
+  "escape-velocity"
+ ],
+ "filmShares": {
+  "escape-velocity": 1.0
+ },
+ "sources": [
+  {
+   "id": "ev-12-face2.face2-ms-f3-iw05.2",
+   "film": "escape-velocity",
+   "weight": 0.010576,
+   "page": "https://claudia.gallery/i/ev-12-face2.face2-ms-f3-iw05.2/"
+  }
+ ]
+}
