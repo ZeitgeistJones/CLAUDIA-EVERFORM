@@ -16,8 +16,6 @@ interface PortraitProps {
 const FADE_MS = 1400;
 
 export function Portrait({ src, alt, className }: PortraitProps) {
-  // Derive the crossfade pair from the prop during render so we don't need an effect
-  // just to notice that `src` changed (and so React Strict Mode can't wipe the base).
   const [base, setBase] = useState<string | null>(src);
   const [incoming, setIncoming] = useState<string | null>(null);
   const fadeTimer = useRef<number | null>(null);
@@ -45,7 +43,6 @@ export function Portrait({ src, alt, className }: PortraitProps) {
         <div className="absolute inset-0 animate-pulse rounded-[50%] bg-white/[0.025] blur-2xl" aria-hidden />
       )}
       {base && (
-        // Local versioned assets under /everform — no need to re-encode through next/image.
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={base}
