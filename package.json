@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4317",
-    "build": "next build",
+    "build": "node scripts/materialize-portraits.mjs && next build",
     "start": "next start -p 4317",
     "lint": "eslint",
     "worker:setup": "python3 -m venv .venv && .venv/bin/pip install -r worker/requirements.txt && .venv/bin/python worker/scripts/fetch_models.py",
     "worker:sync": "cd worker && ../.venv/bin/python -m everform sync",
     "worker:status": "cd worker && ../.venv/bin/python -m everform status",
-    "worker:test": "cd worker && ../.venv/bin/python -m pytest tests -q"
+    "worker:test": "cd worker && ../.venv/bin/python -m pytest tests -q",
+    "materialize:portraits": "node scripts/materialize-portraits.mjs",
+    "postinstall": "node scripts/materialize-portraits.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
