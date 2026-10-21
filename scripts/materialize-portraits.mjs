@@ -10,19 +10,43 @@ if (!existsSync(indexPath)) {
   process.exit(0);
 }
 
+function isPlaceholder(s) {
+  return (
+    !s ||
+    s.includes("PLACEHOLDER") ||
+    s.includes("__LOAD_FROM__") ||
+    s.includes("LOAD_FROM")
+  );
+}
+
 function loadB64(name) {
   const full = join(assetsDir, name);
   if (existsSync(full)) {
     const b64 = readFileSync(full, "utf8").trim();
-    if (b64.startsWith("UklGR") && b64.length >= 1000) return b64;
+    if (!isPlaceholder(b64) && b64.startsWith("UklGR") && b64.length >= 1000) {
+      return b64;
+    }
   }
-  // Join chunked parts: name.part00, name.part01, ...
+  // Join chunked parts: name.part00, name.part01, ... (skip stub/placeholder parts)
+  // Middle parts are raw base64 fragments — they do NOT start with UklGR.
   const parts = readdirSync(assetsDir)
     .filter((f) => f.startsWith(name + ".part"))
     .sort();
   if (!parts.length) return null;
-  const joined = parts.map((f) => readFileSync(join(assetsDir, f), "utf8").trim()).join("");
-  if (!joined.startsWith("UklGR") || joined.length < 1000) return null;
+  const chunks = [];
+  for (const f of parts) {
+    const chunk = readFileSync(join(assetsDir, f), "utf8").trim();
+    if (isPlaceholder(chunk) || chunk.length < 100) {
+      console.warn("materialize: skipping stub part", f, chunk.length);
+      continue;
+    }
+    chunks.push(chunk);
+  }
+  if (!chunks.length) return null;
+  const joined = chunks.join("");
+  if (isPlaceholder(joined) || !joined.startsWith("UklGR") || joined.length < 1000) {
+    return null;
+  }
   return joined;
 }
 
@@ -36,10 +60,29 @@ for (const item of index) {
     skipped++;
     continue;
   }
+  const buf = Buffer.from(b64, "base64");
+  if (buf.length < 1000 || buf.subarray(0, 4).toString("ascii") !== "RIFF") {
+    console.warn("materialize: decoded not RIFF/too small", item.b64, buf.length);
+    skipped++;
+    continue;
+  }
+  // Reject truncated joins (must be within ~2% of expected bytes when known)
+  if (item.bytes && Math.abs(buf.length - item.bytes) > Math.max(512, item.bytes * 0.02)) {
+    console.warn(
+      "materialize: size mismatch",
+      item.path,
+      "got",
+      buf.length,
+      "expected",
+      item.bytes,
+    );
+    skipped++;
+    continue;
+  }
   const out = join(root, item.path);
   mkdirSync(dirname(out), { recursive: true });
-  writeFileSync(out, Buffer.from(b64, "base64"));
-  console.log("materialized", item.path, item.bytes);
+  writeFileSync(out, buf);
+  console.log("materialized", item.path, buf.length);
   ok++;
 }
 console.log(`materialize done: ${ok} ok, ${skipped} skipped`);
